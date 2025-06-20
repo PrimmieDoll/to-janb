@@ -1,11 +1,51 @@
 body {
-  margin-top: 1px;
+  margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-color: #000000;
+  background: linear-gradient(135deg, #ffb6c1, #ffe4e1);
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Sparkle animation background */
+body::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(#fff 1px, transparent 1px),
+                    radial-gradient(#fff 1px, transparent 1px);
+  background-size: 40px 40px;
+  background-position: 0 0, 20px 20px;
+  animation: sparkle 3s linear infinite;
+  z-index: 0;
+  opacity: 0.4;
+}
+
+body::after {
+  content: "❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️";
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 5rem;
+  line-height: 10rem;
+  width: 100%;
+  height: 200%;
+  color: #ff3366;
+  white-space: pre-wrap;
+  opacity: 0.2;
+  pointer-events: none;
+  z-index: 0;
+  animation: scrollHearts 40s linear infinite;
+}
+
+@keyframes sparkle {
+  from { background-position: 0 0, 20px 20px; }
+  to { background-position: 40px 40px, 60px 60px; }
 }
 
 .background {
@@ -14,36 +54,44 @@ body {
   align-items: center;
   width: 100%;
   height: 100%;
+  z-index: 1;
 }
 
 .briefcase {
   position: relative;
   width: 720px;
   height: 500px;
-  background-color: rgba(255, 255, 255, 0.9);
-  border-radius: 8px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 240, 245, 0.8); /* lower opacity */
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(255, 182, 193, 0.6); /* softer shadow */
   overflow: hidden;
   transition: all 0.8s ease;
   cursor: pointer;
-}
-
-.buckle {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 3rem;
   z-index: 2;
-  background: #2c1f15;
-  color: #fff;
-  padding: 10px 15px;
-  border-radius: 50%;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
-  user-select: none;
+  backdrop-filter: blur(5px); /* subtle blur behind */
 }
 
-.briefcase.open .buckle {
+.briefcase:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 28px rgba(255, 105, 180, 0.6);
+}
+
+.buckle-heart {
+  position: absolute;
+  top: 32%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  font-size: 3.5rem;
+  color: rgba(128, 2, 21, 0.9); /* soft pastel pink with transparency */
+  z-index: 2;
+  animation: beat 1s infinite ease-in-out;
+  cursor: pointer;
+  user-select: none;
+  transition: transform 0.3s ease;
+  text-shadow: 0 0 8px rgba(255, 182, 193, 0.3); /* soft glow */
+}
+
+.briefcase.open .buckle-heart {
   display: none;
 }
 
@@ -53,8 +101,8 @@ body {
   height: 40%;
   top: 0;
   left: 0;
-  background-color: rgba(160, 107, 82, 0.9);
-  border-bottom: 4px solid #412917;
+  background-color: #ffb6c1;
+  border-bottom: 4px solid #e75480;
   transition: transform 0.9s ease;
   transform-origin: top;
   z-index: 1;
@@ -70,12 +118,13 @@ body {
   left: 0;
   width: 100%;
   padding: 20px;
-  background-color: rgba(255, 250, 240, 0.95);
+  background-color: rgba(255, 255, 255, 0.8); /* transparent white */
   text-align: center;
   border-radius: 0 0 10px 10px;
-  box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 2px 10px rgba(255, 182, 193, 0.3);
   transition: top 1s ease 0.5s;
   opacity: 0;
+  backdrop-filter: blur(4px); /* soft background blur */
 }
 
 .briefcase.open .message-card {
@@ -86,40 +135,36 @@ body {
 
 .message-card h1 {
   font-size: 1.8rem;
-  color: #444;
+  color: #c71585;
   margin-top: 4rem;
   margin-bottom: 20px;
   animation: beat 5s infinite;
 }
 
-.message-card .message {
-  font-size: 1.1rem;
-  margin-bottom: 20px;
-  color: #666;
-}
-
+.message-card .message,
 .message-card .messages {
   font-size: 1.1rem;
   margin-bottom: 20px;
-  color: #000000;
+  color: #d63384;
 }
 
 .message-card .quote {
   font-style: italic;
-  color: #000000;
+  color: #8b008b;
   margin-top: 3rem;
   margin-bottom: 10px;
 }
 
 .message-card .heart {
-  font-size: 2rem;
-  animation: beat 1s infinite;
+  font-size: 2.5rem;
+  color: #ff1493;
+  animation: beat 1s infinite ease-in-out;
 }
 
 .message-card .from {
   margin-top: 1rem;
   font-size: 1rem;
-  color: #666;
+  color: #db7093;
 }
 
 @keyframes beat {
@@ -127,6 +172,36 @@ body {
     transform: scale(1);
   }
   50% {
-    transform: scale(1.1);
+    transform: scale(1.3);
   }
+}
+
+@keyframes scrollHearts {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes dropBounce {
+  0% {
+    transform: translateY(-100vh) scale(0.9);
+    opacity: 0;
+  }
+  60% {
+    transform: translateY(20px) scale(1.05);
+    opacity: 1;
+  }
+  80% {
+    transform: translateY(-10px) scale(0.98);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}
+
+.drop-in {
+  animation: dropBounce 1.2s ease-out forwards;
 }
